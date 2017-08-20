@@ -19,15 +19,18 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorBackgroundFloating"
-        app:popupTheme="@style/AppTheme.PopupOverlay" />
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        android:layout_weight="1" />
 
     <ImageView
-        android:layout_height="wrap_content"
-        android:layout_marginTop="6dp"
-        app:srcCompat="@mipmap/ic_logo"
+        android:layout_width="wrap_content"
+        app:srcCompat="@drawable/ff"
         android:id="@+id/imageView2"
-        android:layout_width="124dp" />
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_height="40dp" />
 
-    <include layout="@layout/content_main" />
+    <include layout="@layout/content_main"
+        android:layout_weight="1" />
 
 </android.support.design.widget.CoordinatorLayout>
