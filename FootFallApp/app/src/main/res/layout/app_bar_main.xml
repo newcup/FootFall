@@ -22,11 +22,11 @@
         app:popupTheme="@style/AppTheme.PopupOverlay" />
 
     <ImageView
-        android:layout_height="45dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="6dp"
-        app:srcCompat="@mipmap/Logo"
+        app:srcCompat="@mipmap/ic_logo"
         android:id="@+id/imageView2"
-        android:layout_width="wrap_content" />
+        android:layout_width="124dp" />
 
     <include layout="@layout/content_main" />
 

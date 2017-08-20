@@ -15,6 +15,7 @@ body {
   font-family: "Source Sans Pro", Arial, sans-serif;
   line-height: 1.5;
   background: #fff;
+  height: 100%;
   color: #848484;
   font-weight: 300;
   overflow-x: hidden;
@@ -22,7 +23,12 @@ body {
 body.fh5co-offcanvas {
   overflow-x: hidden;
 }
-
+.logo {
+  width: 10%;
+}
+.footsteps{
+  width: 4%;
+}
 a {
   color: #79c34f;
   -webkit-transition: 0.5s;
@@ -108,8 +114,9 @@ figure {
 .fh5co-cover,
 .fh5co-hero {
   position: relative;
-  height: 800px;
-  font-weight: 300;
+  height: 60em;
+  font-weight: 300; 
+  background-image: url(images/coverPhoto.jpg);
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover,
