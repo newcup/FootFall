@@ -116,10 +116,9 @@ figure {
   position: relative;
   height: 60em;
   font-weight: 300; 
-  background-image: url(images/coverPhoto.jpg);
 }
 .fh5co-cover: before {
-  opacity: 0.5;
+  opacity: 0.8;
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover,
